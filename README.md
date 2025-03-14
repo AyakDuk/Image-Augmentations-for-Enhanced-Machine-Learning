@@ -6,7 +6,7 @@ This project performs image augmentation on a set of images using TensorFlow/Ker
 Data Augmentation is is the process of artificially generating new data from existing data, primarily to train new machine learning (ML) models. ML models require large and varied datasets for initial training, but sourcing sufficiently diverse real-world datasets can be challenging because of data silos, regulations, and other limitations. Data augmentation artificially increases the dataset by making small changes to the original data( Definition by AWS).
 Installation Guide
 
-#Create a Virtual Environment
+##Create a Virtual Environment
 It is recommended to create a virtual environment to keep dependencies isolated.
 
 For Windows (Command Prompt or PowerShell):
@@ -17,7 +17,8 @@ For macOS/Linux (Terminal):
 
 python3 -m venv emotion_env
 source emotion_env/bin/activate
-# Install Dependencies
+
+## Install Dependencies
 Run the following command to install all required packages:
 
 pip install opencv-python numpy matplotlib tensorflow scikit-learn

@@ -4,6 +4,47 @@
 This project performs image augmentation on a set of images using TensorFlow/Keras. The script selects five random images from a specified dataset directory, applies various augmentation techniques, and displays the original and augmented images in a grid format.
 
 Data Augmentation is is the process of artificially generating new data from existing data, primarily to train new machine learning (ML) models. ML models require large and varied datasets for initial training, but sourcing sufficiently diverse real-world datasets can be challenging because of data silos, regulations, and other limitations. Data augmentation artificially increases the dataset by making small changes to the original data( Definition by AWS).
+Installation Guide
+
+#Create a Virtual Environment
+It is recommended to create a virtual environment to keep dependencies isolated.
+
+For Windows (Command Prompt or PowerShell):
+
+python -m venv emotion_env
+emotion_env\Scripts\activate
+For macOS/Linux (Terminal):
+
+python3 -m venv emotion_env
+source emotion_env/bin/activate
+# Install Dependencies
+Run the following command to install all required packages:
+
+pip install opencv-python numpy matplotlib tensorflow scikit-learn
+Dataset
+
+Dataset Structure
+The dataset consists of three folders inside a master folder (Dataset/), each containing images of human faces expressing the mentioned emotion:
+
+Dataset/
+    angry/
+        image1.jpg
+        image2.jpg
+        ...
+    happy/
+        image1.jpg
+        image2.jpg
+        ...
+    sad/
+        image1.jpg
+        image2.jpg
+        ...
+Dataset Details
+Version: 1.0
+Size: 85.67 MB
+Last Update: 29/06/2023
+Download Link: https://www.kaggle.com/datasets/sanidhyak/human-face-emotions
+
 
 ## Dependencies
 Ensure you have the following Python packages installed before running the script:
